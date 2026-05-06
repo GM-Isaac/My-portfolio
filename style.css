@@ -1,3 +1,8 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial;
@@ -5,8 +10,9 @@ body {
 }
 
 nav {
+  width: 100%;
   background: linear-gradient(to right, #D9F99D, #A3E635);
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,34 +20,78 @@ nav {
 
 .title {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .nav_links {
-  padding: 10px;
-  margin-left: 20px;
   display: flex;
+  gap: 20px; /* cleaner spacing */
 }
 
 .nav_links a {
   color: white;
   text-decoration: none;
-  margin-left: 20px;
   font-weight: 500;
-  display: inline-block;
 }
 
 .nav_links a:hover {
   color: black;
-}
-
-* {
-  -webkit-tap-highlight-color: transparent;
+  border: 1px solid black;
+  border-radius: 7px;
 }
 
 .nav_links a:focus, 
 .nav_links a:active {
   background: none;
   outline: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: center; /* center the card */
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.hero_card {
+  background: linear-gradient(to bottom, #bef264, #fef9c3);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px #D4D4D4;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero_text {
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  max-width: 500px;
+}
+
+.hero_text h1 {
+  margin-bottom: 12px;
+  font-family: Garamond, serif;
+  color: black;
+}
+
+.hero_text p {
+  font-style: italic;
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+
+  background-color: #ECFCCB;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.hero_image {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
