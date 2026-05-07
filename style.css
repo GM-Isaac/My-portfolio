@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: Arial;
-  background-color: white;
+  background-color: floralwhite;
 }
 
 nav {
@@ -94,4 +94,16 @@ nav {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
+}
+
+.about_me {
+  padding: 40px 60px;
+}
+
+.about_card {
+  background: linear-gradient(to bottom, #bef264, #fef9c3);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
