@@ -141,3 +141,53 @@ nav {
   font-size: 15px;
   font-weight: 500;
 }
+
+.projects {
+  padding: 40px;
+}
+
+.project_title {
+  font-size: 40px;
+  color: #111827;
+  margin-bottom: 30px;
+}
+
+.project_container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project_card {
+  background-color: #F3F4F6;
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0 8px 20px #CBD5E1;
+}
+
+.project_card h3 {
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.project_card p {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.project_card a {
+  text-decoration: none;
+  background-color: #FCE7F3;
+  color: #374151;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #D1D5DB;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.project_card a:hover {
+  background-color: #FBCFE8;
+}
