@@ -6,67 +6,70 @@
 body {
   margin: 0;
   font-family: Arial;
-  background-color: floralwhite;
+  background-color: #E5E7EB;
 }
 
 nav {
   width: 100%;
-  background: linear-gradient(to right, #D9F99D, #A3E635);
+  background-color: #D1D5DB;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #9CA3AF;
 }
 
 .title {
-  color: black;
+  color: #111827;
   font-size: 30px;
   font-weight: bold;
 }
 
 .nav_links {
   display: flex;
-  gap: 20px; /* cleaner spacing */
+  gap: 20px;
 }
 
 .nav_links a {
-  color: white;
+  color: #374151;
   text-decoration: none;
   font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: 0.1s;
 }
 
 .nav_links a:hover {
-  color: black;
-  border: 1px solid black;
-  border-radius: 7px;
+  background-color: #FCE7F3;
 }
 
-.nav_links a:focus, 
+.nav_links a:focus,
 .nav_links a:active {
-  background: none;
+  background-color: #FCE7F3;
   outline: none;
 }
 
 .hero {
   display: flex;
-  justify-content: center; /* center the card */
+  justify-content: center;
   padding: 40px;
   margin-top: 50px;
 }
 
 .hero_card {
-  background: linear-gradient(to bottom, #bef264, #fef9c3);
+  background-color: #F3F4F6;
   padding: 30px;
   border-radius: 16px;
-  box-shadow: 0 8px 20px #D4D4D4;
+  box-shadow: 0 8px 20px #CBD5E1;
   display: flex;
   align-items: center;
   gap: 30px;
+  border: 1px solid #D1D5DB;
 }
 
 .hero_text {
   font-size: 25px;
-  color: black;
+  color: #111827;
   text-align: left;
   max-width: 500px;
 }
@@ -74,19 +77,18 @@ nav {
 .hero_text h1 {
   margin-bottom: 12px;
   font-family: Garamond, serif;
-  color: black;
+  color: #111827;
 }
 
 .hero_text p {
   font-style: italic;
   font-size: 16px;
-  color: black;
+  color: #374151;
   line-height: 1.5;
-
-  background-color: #ECFCCB;
+  background-color: #FCE7F3;
   padding: 12px 16px;
   border-radius: 8px;
-  border: 1px solid black;
+  border: 1px solid #D1D5DB;
 }
 
 .hero_image {
@@ -97,13 +99,16 @@ nav {
 }
 
 .about_me {
-  padding: 40px 60px;
+  padding: 40px;
 }
 
 .about_card {
-  background: linear-gradient(to bottom, #bef264, #fef9c3);
+  background-color: #F3F4F6;
   padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px #CBD5E1;
+  border: 1px solid #D1D5DB;
 }
