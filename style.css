@@ -112,3 +112,29 @@ nav {
   box-shadow: 0 8px 20px #CBD5E1;
   border: 1px solid #D1D5DB;
 }
+
+.me p {
+  font-style: italic;
+  background-color: #FCE7F3;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #D1D5DB;
+  color: #374151;
+}
+
+.skill_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill_tags span {
+  font-style: italic;
+  background-color: #FCE7F3;
+  color: #374151;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 1px solid #D1D5DB;
+  font-size: 15px;
+  font-weight: 500;
+}
