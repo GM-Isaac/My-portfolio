@@ -135,10 +135,14 @@ nav {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   border-radius: 16px;
   box-shadow: 0 8px 20px #CBD5E1;
   border: 1px solid #D1D5DB;
+  border-left: 5px solid #F9A8D4;
+  max-width: 1000px;
+  margin: auto;
+  line-height: 1.7;
 }
 
 .me p {
@@ -147,6 +151,7 @@ nav {
   border-radius: 8px;
   border: 1px solid #D1D5DB;
   color: #374151;
+  font-size: 18px;
 }
 
 .skill_tags {
@@ -164,6 +169,12 @@ nav {
   border: 1px solid #D1D5DB;
   font-size: 15px;
   font-weight: 500;
+  transition: 0.3s;
+}
+
+.skill_tags span:hover {
+  transform: translateY(-3px);
+  background-color: #FBCFE8;
 }
 
 .projects {
