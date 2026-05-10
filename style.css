@@ -120,12 +120,19 @@ nav {
 
 .hero_image:hover {
   transform: scale(1.03);
+  box-shadow: 0 0 35px #F9A8D4;
 }
 
 .hero_card:hover {
   transform: translateY(-6px);
   transition: 0.3s;
   border-color: #FBCFE8;
+}
+
+.project_card:hover,
+.contact_card:hover,
+.about_card:hover {
+  transform: translateY(-5px);
 }
 
 .about_me {
@@ -227,6 +234,7 @@ nav {
 
 .project_card a:hover {
   background-color: #FBCFE8;
+  transform: translateY(-2px);
 }
 
 .project_popup {
@@ -243,6 +251,9 @@ nav {
   opacity: 0;
   visibility: hidden;
   transition: 0.3s;
+  
+  padding: 20px;
+  overflow-y: auto;
 }
 
 .project_popup:target {
