@@ -10,219 +10,322 @@
 <body>
 
     <nav>
-      <div class="title">Gian Portfolio</div>
-      
-        <div class="nav_links">
-            <a href="#home">Home</a>
-            <a href="#about">About me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+        <div class="container nav_container">
+
+            <div class="title">Gian Portfolio</div>
+
+            <div class="nav_links">
+                <a href="#home">Home</a>
+                <a href="#about">About me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
         </div>
     </nav>
-    
+
     <section id="home" class="hero">
-        <div class="hero_card">
-            
-            <img src="images/me.jpg" class="hero_image" alt="Profile Picture">
-            
-            <div class="hero_text">
-                <h1 id="typing_name"></h1>
-                <p id="typing_role"></p>
+
+        <div class="container">
+
+            <div class="hero_card">
+
+                <img src="images/me.jpg"
+                class="hero_image"
+                alt="Profile Picture">
+
+                <div class="hero_text">
+
+                    <h1 id="typing_name"></h1>
+
+                    <div class="role_tag">
+                        <p id="typing_role"></p>
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
+
     </section>
-    
+
     <section id="about" class="about_me">
-        <div class="about_card">
-            <div class="me">
-               <h2>About me</h2>
-               
-               <p>I am a 2nd-year Information Technology student currently learning web development and database management.</p>
-               <p>I create simple systems and websites using HTML, CSS, PHP, and MariaDB.</p>
-               <p>My long-term goal is to become a game developer while continuing to build useful applications and systems.</p>
-               
-            </div>
-            
-            <div class="skills">
-                <h2>Skills</h2>
-                
-                <h3>Programming Languages</h3>
-                <div class="skill_tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
-                    <span>Python</span>
-                    <span>Java</span>
-                    <span>C++</span>
-                    <span>SQL</span>
+
+        <div class="container">
+
+            <div class="about_card">
+
+                <div class="me">
+
+                    <h2>About me</h2>
+
+                    <p>
+                        I am a 2nd-year Information Technology student currently learning web development and database management.
+                    </p>
+
+                    <p>
+                        I create simple systems and websites using HTML, CSS, PHP, and MariaDB.
+                    </p>
+
+                    <p>
+                        My long-term goal is to become a game developer while continuing to build useful applications and systems.
+                    </p>
+
                 </div>
-                
-                <h3>Tools & Platforms</h3>
-                <div class="skill_tags">
-                    <span>Git</span>
-                    <span>Canva</span>
-                    <span>Termux</span>
-                    <span>MariaDB</span>
+
+                <div class="skills">
+
+                    <h2>Skills</h2>
+
+                    <h3>Programming Languages</h3>
+
+                    <div class="skill_tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>SQL</span>
+                    </div>
+
+                    <h3>Tools & Platforms</h3>
+
+                    <div class="skill_tags">
+                        <span>Git</span>
+                        <span>Canva</span>
+                        <span>Termux</span>
+                        <span>MariaDB</span>
+                    </div>
+
                 </div>
+
             </div>
+
         </div>
-        
+
     </section>
-    
+
     <section id="projects" class="projects">
-        <h2 class="project_title">Projects</h2>
-        
-        <div class="project_container">
-            
-            <div class="project_card">
-                <h3>KCG Corporation Land Website</h3>
-                <p>A responsive website for showcasing and promoting land properties.</p>
-                <a href="#project1">View Project</a>
+
+        <div class="container">
+
+            <h2 class="project_title">Projects</h2>
+
+            <p class="section_subtitle">
+                Some systems and applications I built while learning development.
+            </p>
+
+            <div class="project_container">
+
+                <div class="project_card">
+
+                    <h3>KCG Corporation Land Website</h3>
+
+                    <p>
+                        A responsive website for showcasing and promoting land properties.
+                    </p>
+
+                    <div class="project_stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a href="#project1">View Project</a>
+
+                </div>
+
+                <div class="project_card">
+
+                    <h3>BJMP Management System</h3>
+
+                    <p>
+                        A Java GUI system for managing inmate records, cells, and facility activities.
+                    </p>
+
+                    <div class="project_stack">
+                        <span>Java</span>
+                        <span>Swing</span>
+                        <span>XAMPP</span>
+                    </div>
+
+                    <a href="#project2">View Project</a>
+
+                </div>
+
+                <div class="project_card featured_project">
+
+                    <h3>MVC Student Management System</h3>
+
+                    <p>
+                        A student management system for adding, viewing, updating, and deleting records.
+                    </p>
+
+                    <div class="project_stack">
+                        <span>PHP</span>
+                        <span>MariaDB</span>
+                        <span>MVC</span>
+                    </div>
+
+                    <a href="#project3">View Project</a>
+
+                </div>
+
             </div>
-            
-            <div class="project_card">
-                <h3>BJMP Management System</h3>
-                <p>A Java GUI system for managing inmate records, cells, and facility activities.</p>
-                <a href="#project2">View Project</a>
-            </div>
-            
-            <div class="project_card">
-                <h3>MVC Student Management System</h3>
-                <p>A student management system for adding, viewing, updating, and deleting records.</p>
-                <a href="#project3">View Project</a>
-            </div>
-            
+
         </div>
+
     </section>
-    
-        <div id="project1" class="project_popup">
-            
-            <div class="popup_card">
-                <img src="images/project_e-agricultural.jpeg" class="popup_image" alt="KCG Corporation Land Website Screenshot">
-                
-                <h2>KCG Corporation Land Website</h2>
-                
-                <p>
-                    A real estate website created for displaying residential, commercial, industrial, and agricultural land properties in one organized platform. It helps users easily browse available property categories and view company information through a clean and user-friendly layout.<br><br>
-                    Tech used: HTML, CSS, VSCode.<br><br>
-                    Features: Responsive layout, property categories, and informational company sections.
-                </p>
-                
-                <a href="#projects" class="close_btn">Back</a>
-            
-            </div>
+
+    <div id="project1" class="project_popup">
+
+        <div class="popup_card">
+
+            <img src="images/project_e-agricultural.jpeg"
+            class="popup_image"
+            alt="KCG Corporation Land Website Screenshot">
+
+            <h2>KCG Corporation Land Website</h2>
+
+            <p>
+                A real estate website created for displaying residential, commercial, industrial, and agricultural land properties in one organized platform.
+            </p>
+
+            <a href="#projects" class="close_btn">Back</a>
+
         </div>
-        
-        <div id="project2" class="project_popup">
-            
-            <div class="popup_card">
-                <img src="images/project_bjmp.jpg" class="popup_image" alt="BJMP Management System Screenshot 1">
-                <img src="images/project_bjmp2.jpg" class="popup_image" alt="BJMP Management System Screenshot 2">
-    
-                <h2>BJMP Management System</h2>
-                
-                <p>
-                    A Java GUI-based management system developed for organizing inmate records, guard information, cell assignments, and facility activities through an interactive dashboard interface. It helps improve record organization and simplifies basic facility management tasks.<br><br>
-                    Tech used:
-                    Java, Java Swing, Java AWT, XAMPP, VSCode.<br><br>
-                    Features include dashboard statistics, cell monitoring, guard information management, and activity image sections.
-                </p>
-                
-                <a href="#projects" class="close_btn">Back</a>
-            
-            </div>
+
+    </div>
+
+    <div id="project2" class="project_popup">
+
+        <div class="popup_card">
+
+            <img src="images/project_bjmp.jpg"
+            class="popup_image"
+            alt="BJMP Screenshot 1">
+
+            <img src="images/project_bjmp2.jpg"
+            class="popup_image"
+            alt="BJMP Screenshot 2">
+
+            <h2>BJMP Management System</h2>
+
+            <p>
+                A Java GUI-based management system developed for organizing inmate records and facility activities.
+            </p>
+
+            <a href="#projects" class="close_btn">Back</a>
+
         </div>
-        
-        <div id="project3" class="project_popup">
-            
-            <div class="popup_card">
-                <img src="images/project_mvc.png"
-                class="popup_image" alt="MVC Student Management System Screenshot">
-                
-                <h2>MVC Student Management System</h2>
-                
-                <p>
-                    A simple MVC-based student management system designed for adding, viewing, updating, and deleting student records using PHP and MariaDB. It helps organize student information efficiently through a clean and functional interface.<br><br>
-                    Tech used: PHP, HTML, CSS, MariaDB, Termux.<br><br>
-                    Features include database integration and MVC folder structure implementation.
-                </p>
-                
-                <a href="#projects" class="close_btn">Back</a>
-            
-            </div>
+
+    </div>
+
+    <div id="project3" class="project_popup">
+
+        <div class="popup_card">
+
+            <img src="images/project_mvc.png"
+            class="popup_image"
+            alt="MVC Screenshot">
+
+            <h2>MVC Student Management System</h2>
+
+            <p>
+                A simple MVC-based student management system designed for adding, viewing, updating, and deleting student records.
+            </p>
+
+            <a href="#projects" class="close_btn">Back</a>
+
         </div>
-    
-    
+
+    </div>
+
     <section id="contact" class="contact">
-        
-        <h2 class="contact_title">Contact Me</h2>
-        
-        <div class="contact_container">
-            
-            <div class="contact_card">
-                <h3>Email</h3>
-                
-                <a href="mailto:gianmanela05@gmail.com">gianmanela05@gmail.com
-                </a>
+
+        <div class="container">
+
+            <h2 class="contact_title">Contact Me</h2>
+
+            <div class="contact_container">
+
+                <div class="contact_card">
+
+                    <h3>Email</h3>
+
+                    <a href="mailto:gianmanela05@gmail.com">
+                        gianmanela05@gmail.com
+                    </a>
+
+                </div>
+
+                <div class="contact_card">
+
+                    <h3>GitHub</h3>
+
+                    <a href="https://github.com/GM-Isaac" target="_blank">
+                        github.com/GM-Isaac
+                    </a>
+
+                </div>
+
             </div>
-            
-            <div class="contact_card">
-                <h3>GitHub</h3>
-                
-                <a href="https://github.com/GM-Isaac" target="_blank">
-                    github.com/GM-Isaac
-                </a>
-            </div>
-            
+
         </div>
+
     </section>
-    
+
     <footer class="footer">
         <p>Copyright © 2026 Gian Manela. All rights reserved.</p>
     </footer>
-    
-    <script>
-    
-    const nameText = "Hi, I'm Gian Isaac Manela";
-    const roleText = "Interested in Game Development";
-    
-    const nameElement = document.getElementById("typing_name");
-    const roleElement = document.getElementById("typing_role");
-    
-    let nameIndex = 0;
-    let roleIndex = 0;
-    
-    function typeName() {
-        if (nameIndex < nameText.length){
-            nameElement.textContent += nameText.charAt(nameIndex);
-            
-            nameIndex++;
-            
-            setTimeout(typeName, 100);
-            
-        } else {
-            setTimeout(typeRole, 400);
-            
-        }
-        
-    }
-    
-    function typeRole(){
-        if(roleIndex < roleText.length){
-            roleElement.textContent += roleText.charAt(roleIndex);
-            
-            roleIndex++;
-            
-            setTimeout(typeRole, 100);
-            
-        }
-        
-    }
-    
-    typeName();
-    
-    </script>
-    
-</body>
 
+<script>
+
+const nameText = "Hi, I'm Gian Isaac Manela";
+const roleText = "Interested in Game Development";
+
+const nameElement = document.getElementById("typing_name");
+const roleElement = document.getElementById("typing_role");
+
+let nameIndex = 0;
+let roleIndex = 0;
+
+function typeName(){
+
+    if(nameIndex < nameText.length){
+
+        nameElement.textContent += nameText.charAt(nameIndex);
+
+        nameIndex++;
+
+        setTimeout(typeName, 100);
+
+    } else {
+
+        setTimeout(typeRole, 400);
+
+    }
+
+}
+
+function typeRole(){
+
+    if(roleIndex < roleText.length){
+
+        roleElement.textContent += roleText.charAt(roleIndex);
+
+        roleIndex++;
+
+        setTimeout(typeRole, 100);
+
+    }
+
+}
+
+typeName();
+
+</script>
+
+</body>
 </html>
