@@ -181,71 +181,48 @@
         <p>Copyright © 2026 Gian Manela. All rights reserved.</p>
     </footer>
     
-   <script>
-   
-   const nameText = "Hi, I'm Gian Isaac Manela";
-   const roleText = "Interested in Game Development";
-   
-   const nameElement = document.getElementById("typing_name");
-   const roleElement = document.getElementById("typing_role");
-   
-   let nameIndex = 0;
-   let roleIndex = 0;
-   
-   function typeName() {
-       if (nameIndex < nameText.length) {
-           nameElement.textContent += nameText.charAt(nameIndex);
-       
-       nameIndex++;
-       setTimeout(typeName, 100);
-           
-       } else {
-           setTimeout(typeRole, 500);
-           
-       }
-       
-   }
-   
-   function typeRole() {
-       if (roleIndex < roleText.length) {
-           roleElement.textContent += roleText.charAt(roleIndex);
-           
-        roleIndex++;
-        setTimeout(typeRole, 100);
-           
-       } else {
-           setTimeout(eraseText, 1500);
-       }
-       
-   }
-   
-   function eraseText() {
-       if (roleElement.textContent.length > 0){
-           roleElement.textContent =
-           roleElement.textContent.slice(0, -1);
-           
-           setTimeout(eraseText, 50);
-           
-       } else if (nameElement.textContent.length > 0) {
-           nameElement.textContent = nameElement.textContent.slice(0, -1);
-           
-           setTimeout(eraseText, 50);
-           
-       } else {
-           
-           nameIndex = 0;
-           roleIndex = 0;
-           
-           typeName();
-           
-       }
-       
-   }
-   
-   typeName();
-   
-   </script>
-
+    <script>
+    
+    const nameText = "Hi, I'm Gian Isaac Manela";
+    const roleText = "Interested in Game Development";
+    
+    const nameElement = document.getElementById("typing_name");
+    const roleElement = document.getElementById("typing_role");
+    
+    let nameIndex = 0;
+    let roleIndex = 0;
+    
+    function typeName() {
+        if (nameIndex < nameText.length){
+            nameElement.textContent += nameText.charAt(nameIndex);
+            
+            nameIndex++;
+            
+            setTimeout(typeName, 100);
+            
+        } else {
+            setTimeout(typeRole, 400);
+            
+        }
+        
+    }
+    
+    function typeRole(){
+        if(roleIndex < roleText.length){
+            roleElement.textContent += roleText.charAt(roleIndex);
+            
+            roleIndex++;
+            
+            setTimeout(typeRole, 100);
+            
+        }
+        
+    }
+    
+    typeName();
+    
+    </script>
+    
 </body>
 
 </html>
