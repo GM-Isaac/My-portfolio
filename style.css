@@ -23,29 +23,43 @@ section{
 
 nav {
   width: 100%;
-  background-color: #BFDBFE;
-  padding: 15px 40px;
+  background: rgba(191, 219, 254, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 18px;
   border-bottom: 1px solid #9CA3AF;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 10px #dbeafe;
+  text-align: center;
 }
 
 .title {
-  color: #111827;
-  font-size: 30px;
+  font-size: 42px;
   font-weight: bold;
-  letter-spacing: 1px;
-  font-family: Garamond, serif;
+  letter-spacing: 3px;
+  color: #F8FAFC;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 5px #DBEAFE,
+    0 0 10px #93C5FD,
+    0 0 20px #60A5FA;
+  transition: 0.3s;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .nav_links {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .nav_links a {
@@ -82,7 +96,9 @@ nav {
   max-width: 1200px;
   padding: 40px;
   border-radius: 24px;
-  background: linear-gradient(to top, #F9FAFB, #DBEAFE);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 12px 30px #BFDBFE;
   display: flex;
   align-items: center;
@@ -150,7 +166,9 @@ nav {
 }
 
 .about_card {
-  background-color: #F3F4F6;
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -240,7 +258,9 @@ nav {
 }
 
 .project_card {
-  background-color: #F3F4F6;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   padding: 30px;
   border-radius: 24px;
   border: 1px solid #BFDBFE;
@@ -327,7 +347,9 @@ nav {
 }
 
 .popup_card {
-  background-color: #F3F4F6;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   width: 90%;
   max-width: 800px;
   padding: 35px;
